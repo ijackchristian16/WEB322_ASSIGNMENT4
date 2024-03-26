@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body tabindex="-1">
+
+  <%- include('partials/navbar',{page: ''}) %>
+
+  <div class="container mx-auto p-4">
+
+
+    <div class="hero bg-base-200 rounded-lg p-6">
+      <div class="hero-content text-center ">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">Explore</h1>
+
+          <p class="py-6">Step into a world of endless possibilities and creativity as you enter the vibrant universe of Lego. Let your imagination soar and dive into a realm where anything is possible</p>
+      
+          <a href="/lego/sets" class="btn btn-primary">Browse All Sets</a>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-full" src="https://cdn.rebrickable.com/media/sets/0011-2.jpg" alt="Lego set" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Town Mini-Figures</h2>
+            <p>Small figures representing different professions and roles in LEGO Town sets, adding realism and depth to creations.</p>
+            <div class="card-actions justify-end">
+              <a href="/lego/sets/0011-2" class="btn btn-primary">View</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-full" src="https://cdn.rebrickable.com/media/sets/0016-1.jpg" alt="Lego Set" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Castle Mini Figures</h2>
+            <p>Small figures representing knights, soldiers, kings, and other characters in LEGO Castle sets, bringing medieval adventures to life.</p>
+            <div class="card-actions justify-end">
+              <a href="/lego/sets/0016-1" class="btn btn-primary">View</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div>
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-full" src="https://cdn.rebrickable.com/media/sets/003-1.jpg" alt="Lego Set" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Master Mechanic Set</h2>
+            <p>LEGO kit for building mechanical structures and vehicles, fostering creativity and understanding of mechanics</p>
+            <div class="card-actions justify-end">
+              <a href="/lego/sets/003-1" class="btn btn-primary">View</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
